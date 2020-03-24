@@ -4,7 +4,7 @@ This is an alternative dashboard option from https://github.com/grafana/kubernet
 The grafana app seems to have few issues while working on k8s cluster in cloud env atleast when i tried. 
 
 - The endpoint it refers to the node exporters are changed.
-- The auth works for TLS/Basic not for webhook which we dont have for the cloud k8s deployment like gcloud..etc;
+- The auth works for TLS/Basic not for webhook which we have for cloud k8s deployment like gcloud..etc;
 - The cluster config is not able to add any more clusters as the UI seems to be broken.
  - I had few issues rendering the panels
 
